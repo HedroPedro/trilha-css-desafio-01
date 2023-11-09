@@ -1,0 +1,35 @@
+@import url('reset.css');
+
+.logo {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-bottom: 400px;
+    border-bottom: 2px solid rgba(116, 196, 230, 0.822);
+}
+
+.banner-content {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.banner-content button {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid rgba(116, 196, 230, 0.822);
+    background-color: transparent;
+}
+
+#course-content {
+    padding: 200px;
+    background-color: #111;
+    color: #FFF9;
+    text-align: center;
+}
