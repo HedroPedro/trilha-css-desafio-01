@@ -94,9 +94,14 @@ main {
     font-size: 1.1em;
 }
 
+#modules-list .modules-list {
+    margin: 24px 0;
+}
+
 #course-content .module {
-    font-size: 1.1em;
-    padding: 12px 58px 14px;
+    padding: 16px;
+    margin: 0 auto 24px;
+    width: 530px;
     border: 1px solid rgba(117, 202, 245, 0.9);
     border-radius: 100px;
     background-color: rgb(17, 17, 17);
@@ -123,7 +128,7 @@ main {
     height: auto;
     width: 300px;
     color: #FFF;
-    padding: 250px 0 0 50px;
+    padding: 250px 0 0;
     margin: 0 0 0 104px;
     text-transform: lowercase;
     text-shadow: 3px 2px rgba(110, 190, 230, 0.8);
@@ -155,6 +160,20 @@ section {
     margin-inline-end: 1em;
 }
 
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(37, 74, 231, 0.5));
+    padding: 55px;
+}
+
 footer .dio-logo {
     width: 300px;
+}
+footer p {
+    color: #FFF;
+    font-size: 1.1em;
+}
+a {
+    text-decoration: none;
+    color: rgba(117, 202, 245, 0.9);
 }
